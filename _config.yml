@@ -13,7 +13,7 @@ name                     : &name "Christopher Moore"
 description              : &description "A place in the sun"
 url                      : "https://www.chrismoore91.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "cmoore91/chrismoore91.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -106,7 +106,7 @@ author:
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackexchange   : "https://stackexchange.com/users/17239925/christopher-moore"
+  stackoverflow    : "https://stackexchange.com/users/17239925/christopher-moore"
   steam            :
   tumblr           :
   twitter          : "replacethistwitterhandle"
