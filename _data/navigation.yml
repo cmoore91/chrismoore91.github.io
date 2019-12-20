@@ -1,13 +1,13 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Projects"
+    url: /projects/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Influences"
+    url: /influences/    
 
-  - title: "Teaching"
-    url: /teaching/    
+#  - title: "Teaching"
+#    url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
