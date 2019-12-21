@@ -1,0 +1,174 @@
+---
+layout: archive
+title: "Curriculum Vitae"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Euler for math | Palatino for rm | Helvetica for ss | Courier for tt
+\renewcommand{\rmdefault}{ppl} % rm
+\linespread{1.05}        % Palatino needs more leading
+\usepackage[scaled]{helvet} % ss
+\usepackage{courier} % tt
+\usepackage{euler} % math
+%\usepackage{eulervm} % a better implementation of the euler package (not in gwTeX)
+\normalfont
+\usepackage[T1]{fontenc}
+
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Christopher Stephen Moore}
+
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+\address{c.stephen.moore@gmail.com\\linkedin.com/in/cmoore1991\\}
+\address{Laguna Beach, CA \\(562) 371-7474\\}
+
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{Objective}
+{\sl Applying practical solutions from the ether of discovery to advance humankind further beyond known frontiers through innovation in nanoscale materials science and engineering. }
+
+\section{Education}
+\textbf{Chapman University}, Orange, CA\\
+{\sl Bachelor of Science (B. S.)}, Chemistry\\
+Expected May, 2020
+
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{Technical\\Skills}
+
+\textbf{Chemical: } NMR, FT IR/Raman, SEM, GC-MS
+\\
+\textbf{Mechanical :} Integrated Hotplate Chamber, Mark-10 Force Measurement
+\\
+\textbf{Fabrication : } Lasercuting, Spincoating, Physical Vapor Deposition
+\\
+\textbf{Computation: } Mathematica (primary), Python, Java
+\\
+\textbf{General : }  Illustrator, Photoshop, Inventor, MS Office, \LaTeX
+
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\\ \employer{l}
+\dates{l}\location{r}\\
+
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+
+\section{Research \\Experience}
+
+\textbf{UC Irvine: Research Intern \hfill{May 2019 - Present}\\}
+\normalfont{Member of an interdisciplinary team developing bio-inspired materials at the Gorodetsky Group.  Primary role is material characterization of commercial polymers.}
+
+\section{Work \\Experience}
+\employer{82nd Airborne Division, U.S. Army}
+\location{Fort Bragg, NC}
+\title{\textbf{Combat Medic\hfill 2011-2015}
+ }
+\begin{position}
+% \begin{itemize}
+Served 9 months in Afghanistan as a search-and-rescue medic and field hospital operating room assistant treating numerous local nationals.  Awarded medal for resuscitating injured US soldier.
+% \end{itemize}
+
+\item \end{position}
+
+\employer{CSC Enterprises, LLC}
+\location{Orange County, CA}
+\title{\textbf{Managing Member \hfill 2017 - Present}
+ }
+\begin{position}
+% \begin{itemize}
+Oversee all property management aspects of my family's real estate portfolio.  Responsible for over \$10 million in assets.  Skilled in tenant relationships, municipal regulations, construction management, small business taxation and finance. \\
+Through my mastery of the tax code, I contested the assessor's appraisal and obtained a 24\% tax reduction into perpetuity, saving thousands of dollars annually.  \\
+% \end{itemize}
+
+\end{position}
+
+
+\section{
+
+
+\section{Relevant\\Coursework}
+\par
+
+\normalfont{\textbullet{} Advanced Organic Chemistry }
+\normalfont{ \textbullet{} Analytical Chemistry}
+\normalfont{ \textbullet{} Physical Chemistry \\}
+\normalfont{\textbullet{} Atmospheric/Geochemistry}
+\normalfont{\textbullet{} Biochemistry }
+\normalfont{\textbullet{} Molecular Genetics\\ }
+\normalfont{\textbullet{} Multivariable Calculus   }
+\normalfont{\textbullet{} Linear Algebra}
+\normalfont{\textbullet{} Discrete Math\\ }
+\normalfont{ \textbullet{} Introduction to Data Science }
+\normalfont{\textbullet{} Python}
+\normalfont{\textbullet{} Java}
+
+
+\section{Awards}
+
+\normalfont{ \textbullet{} 2nd Place Best in Show, Chapman Datafest  (American Statistical Association)\\}
+\normalfont{ \textbullet{} Army Commendation Medal (2x), Army Achievement Medal \\}
+\normalfont{\textbullet{} Eagle Scout (Boy Scouts of America)\\ }
+
+%-------------------------------------------------------------------------------
+
+
+\end{resume}
+\(\)\end{document}
